@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * isalpha - Checks for alphabeltic character.
+ * _isalpha - Checks for alphabeltic character.
  * @c: The character (ASCII value) to be checked.
  *
  * Return: 1 if c is a letter, lowercase or uppercase, 0 otherwise.
