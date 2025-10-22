@@ -1,6 +1,6 @@
 #include <stdio.h>
 /**
- * main - Prints all single digit numbers of base 10 starting from 0.
+ * main - Prints the lowercase alphabet in reverse.
  *
  * Return: Always 0.
  */
