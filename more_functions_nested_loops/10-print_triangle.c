@@ -12,6 +12,12 @@ void print_triangle(int size)
 {
 	int space, row, symbol;
 
+	if (size <= 0)
+	{
+		_putchar('\n');
+		return;
+	}
+
 	for (row = 0; row <= size; row++)
 	{
 		for (space = size - row; space > 0; space--)
