@@ -27,7 +27,7 @@ int _atoi(char *s)
 		}
 		else if (*s == '+' && !first_number)
 		{
-			continue;
+
 		}
 
 		if (*s >= '0' && *s <= '9')
