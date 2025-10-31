@@ -63,3 +63,38 @@ Copies the string pointed to by src, including the terminating null byte, to the
 int _atoi(char *s);
 
 Converts a string to an integer. (Custom implementation of the atoi function).
+
+
+
+
+0-strcat.c
+
+Implements char *_strcat(char *dest, char *src).
+
+1-strncat.c
+
+Implements char *_strncat(char *dest, char *src, int n).
+
+2-strncpy.c
+
+Implements char *_strncpy(char *dest, char *src, int n).
+
+3-strcmp.c
+
+Implements int _strcmp(char *s1, char *s2).
+
+4-rev_array.c
+
+Implements void reverse_array(int *a, int n).
+
+5-string_toupper.c
+
+Implements char *string_toupper(char *).
+
+6-cap_string.c
+
+Implements char *cap_string(char *).
+
+7-leet.c
+
+Implements char *leet(char *) with specified constraints.
