@@ -4,13 +4,14 @@
 int main(void)
 {
         char buffer[98] = {0x00};
+	char buffer2[98] = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14};
 	unsigned int i;
 	
-	_memset(buffer, 0x01, 95);
+	_memcpy(buffer + 50, buffer2, 10);
 	
-	printf("Buffer después de _memset(buffer, 0x01, 95):\n");
+	printf("Buffer después de _memcpy (Mostrando índices 50 al 59):\n");
 	
-	for (i = 0; i < 10; i++)
+	for (i = 50; i < 60; i++)
 	{
 		printf("Buffer[%d]: 0x%02x\n", i, (unsigned char)buffer[i]);
 	}
