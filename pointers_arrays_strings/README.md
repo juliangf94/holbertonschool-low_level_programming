@@ -98,3 +98,53 @@ Implements char *cap_string(char *).
 7-leet.c
 
 Implements char *leet(char *) with specified constraints.
+
+
+
+0-memset.c
+
+char *_memset(char *s, char b, unsigned int n);
+
+Fills the first n bytes of memory area s with the constant byte b.
+
+1-memcpy.c
+
+char *_memcpy(char *dest, char *src, unsigned int n);
+
+Copies n bytes from memory area src to memory area dest.
+
+2-strchr.c
+
+char *_strchr(char *s, char c);
+
+Locates the first occurrence of the character c in the string s.
+
+3-strspn.c
+
+unsigned int _strspn(char *s, char *accept);
+
+Gets the length of the initial segment of s consisting only of bytes from accept.
+
+4-strpbrk.c
+
+char *_strpbrk(char *s, char *accept);
+
+Locates the first occurrence in s of any byte from accept.
+
+5-strstr.c
+
+char *_strstr(char *haystack, char *needle);
+
+Finds the first occurrence of the substring needle in the string haystack.
+
+7-print_chessboard.c
+
+void print_chessboard(char (*a)[8]);
+
+Prints a given 8x8 chessboard.
+
+8-print_diagsums.c
+
+void print_diagsums(int *a, int size);
+
+Prints the sum of the two diagonals of a square matrix.
