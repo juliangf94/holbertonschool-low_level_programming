@@ -1,5 +1,7 @@
 #include "main.h"
 
+
+int _check_root(int n, int i);
 /**
  * _check_root - Helper function to recursively find the natural square root.
  * @n: The number to find the square root of.
@@ -7,6 +9,7 @@
  *
  * Return: The square root if found, or -1 if no natural square root exists.
  */
+
 int _check_root(int n, int i)
 {
 	long square = (long) i * i;
