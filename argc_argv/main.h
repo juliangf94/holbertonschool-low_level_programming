@@ -17,7 +17,8 @@ int _is_digit(char *s);
 /* Utility; prints a string followed by a new line */
 void _puts(char *str);
 
-
+/*100-change.c prints the minimum number of coins
+ * to make change for an amount of money*/
 
 
 
