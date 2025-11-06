@@ -19,7 +19,7 @@ int main(int argc, char *argv[])
 
 	while (argv[i] != NULL)
 	{
-		printf("%d\n", argv[i]);
+		printf("%s\n", argv[i]);
 		i++;
 	}
 	(void)argc;
