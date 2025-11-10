@@ -1,8 +1,8 @@
 #ifndef MAIN_H
 #define MAIN_H
 
-#include <stdlib.h> /* Required for size_t and NULL */
-
+#include <stdlib.h>
+#include <stdio.h>
 /*
  * File: main.h
  * Description: Header file containing prototypes for all functions
