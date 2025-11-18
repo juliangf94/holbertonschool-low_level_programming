@@ -1,4 +1,3 @@
-#include <stddef.h>
 #include "function_pointers.h"
 #include <stdio.h>
 
@@ -8,8 +7,8 @@
  * @name: The string containing the name to print.
  * @f: A pointer to the function that will handle the printing logic.
  *
- * Description: This function checks if both the name string and the function
- * pointer are valid (not NULL). If they are, it calls the function pointed
+ * Description: This function checks if the name string 
+ * is valid (not NULL). If it is, it calls the function pointed
  * to by 'f', passing 'name' as its argument.
  *
  * Return: void
