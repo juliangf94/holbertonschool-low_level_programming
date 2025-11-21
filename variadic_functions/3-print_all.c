@@ -15,7 +15,7 @@
 void print_all(const char * const format, ...)
 {
 	va_list args;
-	unsigned int i = 0;
+	const char *f_ptr;
 	char *str;
 	char *separator;
 	char *nil_str;
@@ -25,9 +25,10 @@ void print_all(const char * const format, ...)
 	nil_str = "(nil)";
 	separator = "";
 	comma_space = ", ";
-	while (format && format[i])
+	f_ptr = format;
+	while (f_ptr && *f_ptr)
 	{
-		switch (format[i])
+		switch (*f_ptr)
 		{
 			case 'c':
 				printf("%s%c", separator, va_arg(args, int));
@@ -47,13 +48,12 @@ void print_all(const char * const format, ...)
 				str = va_arg(args, char *);
 				if (!str)
 				{
-					printf("%s", nil_str);
-					break;
+					str = nil_str;
 				}
 				printf("%s", str);
 				break;
 		}
-		i++;
+		f_ptr++;
 	}
 	va_end(args);
 	printf("\n");
